@@ -62,6 +62,17 @@ div{
     color: black;
 
 }
+
+div:visited{
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    float: left;
+    margin-bottom: 20px;
+    color: black;
+
+}
 .div1 {
     width: 20%;
     height: 180px;
