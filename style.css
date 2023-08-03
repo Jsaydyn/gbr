@@ -26,6 +26,7 @@ header {
 
     }
 body {
+    
 	font-family: 'Ubuntu';
 background-color: #e2eaf1;
 }
@@ -122,3 +123,88 @@ h2 {
     transition: 0.5s ease-in-out;
 }
 
+.left {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.right {
+    margin-left: 80px;
+    margin-top: 40px;
+    width: 30%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.rightimage {
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.bigthing {
+    background-color: #e2eaf1;
+    width: 52%;
+}
+
+.environmental {
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url(https://archive.org/download/theoriginalfilesofsomewindowswallpapers/112016.jpg);
+
+    background-size: 100%;
+}
+
+p {
+    font-size: large;
+}
+
+.economic {
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url(https://thumbs.dreamstime.com/b/australian-gold-one-dollar-coin-sits-next-to-stack-coins-top-australian-bank-notes-30311071.jpg);
+
+    background-size: 100%;
+}
+.normal {
+    background-color: transparent;
+    color: blue;
+    padding: 3px;
+    margin: 0%;
+}
+
+.normal:hover {
+    background-color: darkblue;
+    color: white;
+
+    margin: 0%;
+    border-radius: 50px;
+}
+
+.sociocultural {
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url(https://www.barrierreef.org/generated/1280w-16-9/a-reef-wonderland-low-res-jpg.jpg?1606275885);
+
+    background-size: 100%;
+}
